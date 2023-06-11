@@ -1,0 +1,95 @@
+﻿{
+  "stats": [
+    {
+      "name": "삽",
+      "desc": "데미지 {0}% 증가 \n 회전체 {1}개 추가",
+      "type": "Shovel",
+      "baseDamage": "6",
+      "baseCount": "1",
+      "baseSpeed": "150f",
+      "damages": [ "0.5", "1", "1.5", "2", "3" ],
+      "counts": [ "1", "1", "1", "1", "2" ],
+      "hand": "Hand_Shovel",
+      "projectile": "Shovel",
+      "icon": "Icon_Shovel"
+    },
+    {
+      "name": "대형 포크",
+      "desc": "데미지 {0}% 증가. 투사체 {1}개 증가",
+      "type": "Fork",
+      "baseDamage": "3",
+      "baseCount": "3",
+      "baseSpeed": "1f",
+      "damages": [ "0.5", "1", "1.5", "2", "2.5" ],
+      "counts": [ "1", "1", "1", "1", "1" ],
+      "hand": "Hand_Fork",
+      "projectile": "Fork",
+      "icon": "Icon_Fork"
+    },
+    {
+      "name": "낫",
+      "desc": "데미지 {0}% 증가 \n 투사체, 관통력 {1}개 증가",
+      "type": "Sickle",
+      "baseDamage": "5",
+      "baseCount": "3",
+      "baseSpeed": "1f",
+      "damages": [ "0.5", "1", "1.5", "2", "3" ],
+      "counts": [ "1", "1", "1", "1", "2" ],
+      "hand": "Hand_Sickle",
+      "projectile": "Sickle",
+      "icon": "Icon_Sickle"
+    },
+    {
+      "name": "엽총",
+      "desc": "데미지 {0}% 증가 \n 관통력 {1}개 추가",
+      "type": "Gun",
+      "baseDamage": "4.5",
+      "baseCount": "0",
+      "baseSpeed": "0.4f",
+      "damages": [ "0.5", "1", "1.5", "2", "3" ],
+      "counts": [ "1", "2", "3", "4", "5" ],
+      "hand": "Hand_Gun",
+      "projectile": "Bullet",
+      "icon": "Icon_Gun"
+    },
+    {
+      "name": "테크니컬 장갑",
+      "desc": "연사속도 {0}% 증가",
+      "type": "Glove",
+      "baseDamage": "0",
+      "baseCount": "0",
+      "baseSpeed": "0",
+      "damages": [ "0.1", "0.2", "0.35", "0.5", "0.75" ],
+      "counts": "0",
+      "hand": "",
+      "projectile": "",
+      "icon": "Icon_Glove"
+    },
+    {
+      "name": "전투 장화",
+      "desc": "이동속도 {0}% 증가",
+      "type": "Shoe",
+      "baseDamage": "0",
+      "baseCount": "0",
+      "baseSpeed": "0",
+      "damages": [ "0.1", "0.2", "0.3", "0.4", "0.5" ],
+      "counts": "0",
+      "hand": "",
+      "projectile": "",
+      "icon": "Icon_Shoe"
+    },
+    {
+      "name": "음료수 캔",
+      "desc": "체력을 전부 회복한다",
+      "type": "Heal",
+      "baseDamage": "0",
+      "baseCount": "0",
+      "baseSpeed": "0",
+      "damages": [ "0", "1" ],
+      "counts": "0",
+      "hand": "",
+      "projectile": "",
+      "icon": "Icon_Heal"
+    }
+  ]
+}

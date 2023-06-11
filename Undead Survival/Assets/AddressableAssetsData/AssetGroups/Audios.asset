@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Audios
+  m_EditorClassIdentifier: 
+  m_GroupName: Audios
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 03a77d216d238ac4092b9d25c08049a6
+  m_SerializeEntries:
+  - m_GUID: 291608b8d286e2a4580ff36324455ce2
+    m_Address: Dead.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: 0bddcb411d826e14bb26d40ae45d8e22
+    m_Address: Hit0.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: 6b7eaf4532a2f614595ad58d2b86efc4
+    m_Address: Hit1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: 64795b87003c2324fa0814fbc336066c
+    m_Address: LevelUp.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: c8a3fe17a6641ec48b38fb455a40a223
+    m_Address: Lose.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: 14f24de2a9a70154e96297de25e2184c
+    m_Address: Melee0.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: d1bef3102d08ba944ac7bcac65733a26
+    m_Address: Melee1.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: 6f0c572d865b4664db7a460972bc4768
+    m_Address: Range.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: 4b294d59d2399014daa718b35c9de73b
+    m_Address: Select.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: 2c4bc183a5df5aa4baf7c4fcf236a2de
+    m_Address: Win.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: 455c16254d3d8a34eabff5567de0c590
+    m_Address: BGM_Mutant Club.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: 7cec6a16f8fd3ad46b4250b24c8dbf09
+    m_Address: BGM_Timo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  - m_GUID: 0a2c350703c199645b5e0610ae36b728
+    m_Address: PickUp.wav
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Audio
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 952ded5eb38b64841b41335929b34450, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dd239e6080c0ef54d9f868581ef4b08b, type: 2}
+    - {fileID: 11400000, guid: c010c715552bb0642858d2403983ee50, type: 2}

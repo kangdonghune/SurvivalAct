@@ -1,0 +1,265 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sprites
+  m_EditorClassIdentifier: 
+  m_GroupName: Sprites
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 7281e3bc88a6c124a988a36b0185eef6
+  m_SerializeEntries:
+  - m_GUID: f9d7822bcf6c38749934941254a8e69f
+    m_Address: Box
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 399c64627bb82494fbe50d7d30925800
+    m_Address: Bullet1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: e44e41d7be38b064685cae11235863eb
+    m_Address: Bullet2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 25e090ca9583d034dace19b02c65af19
+    m_Address: Bullet3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: ba07c6cf603a0c54c9a7f48f183f7f2d
+    m_Address: Exp 0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 27fbc329a7b9e194cabb286ce803bd2f
+    m_Address: Exp 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 6582f2a30abdd0f41bbf1133eb341c7c
+    m_Address: Exp 2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: d84759cff0113144a87aeb5d8f8af019
+    m_Address: Fork_Sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 28d6e06475f577549baba9ec781fc6ab
+    m_Address: Hand_ MachineGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: f2564d29cb606d14b8eeebeadbfbcc32
+    m_Address: Hand_Fork
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 223b1bec7fefc6240b0e9487c3f49143
+    m_Address: Hand_Gun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 3f44a8593c1d40445974b447cf9c07b5
+    m_Address: Hand_ShotGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 53986e50cba27c84cb40e8120e49ca30
+    m_Address: Hand_Shovel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 265c5ce736e56b34994c991f6757fb87
+    m_Address: Hand_Sickle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 33522f31aa8c68145921ba47ad92b675
+    m_Address: Health
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 9c8fd23270c490b4b8645147c0480161
+    m_Address: Mag
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: ab76f83603a88834abde9ae7d3a18472
+    m_Address: Shadow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 1910133ad17b57546af94c61eeaedef1
+    m_Address: Shovel_Sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 4d030aa8142fcf44393237f4737c2b7d
+    m_Address: Sickle_Sprite
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: d30dfbb8343a3f245825fef98a5e94f9
+    m_Address: Back 0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: f139f1a018c683140a1315b817845ee2
+    m_Address: Back 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 786c14636df55444d9272eb945a0337c
+    m_Address: Box 0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: dcaf35aed5c234442bfebf420e587d48
+    m_Address: Box 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 36df62c94a5a41a48b6f260cebc306cc
+    m_Address: Front 0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 21c7de2b0017fd2458813fb78a9a4767
+    m_Address: Front 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 33aef3d1f4bc85d43ab683c8d661e1e7
+    m_Address: Icon 0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: e390290eb77e9da4db942d810445460f
+    m_Address: Icon_Bullet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 9e7768a0e30bb234095d4611ab2c4c94
+    m_Address: Icon_Fork
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: c9c4989c553c40f4facf0ee0e829df6b
+    m_Address: Icon_Glove
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 278b3691eabab7e4da1aca64a9d8aaf0
+    m_Address: Icon_Gun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: e27d4b7e88729404c92c9d573d5e7311
+    m_Address: Icon_Heal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 20fe78e5824bd1f48b45add1bb95dbcf
+    m_Address: Icon_MuchineGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 822247abab545a14390b95b4ea88f456
+    m_Address: Icon_Shoe
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: b067c07a5e15ee742b54df82c0a960d2
+    m_Address: Icon_ShotGun
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 0b5057a69e987d1478a1750bc352a4d7
+    m_Address: Icon_Shovel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: c7bc624f11a80a547acf5a0461820bc9
+    m_Address: Icon_Sickle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 7c5009e6894002b41aa0ae46c23e9011
+    m_Address: Joystick 0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 87cedf0881f85f5438c91e4c8d92ab5e
+    m_Address: Joystick 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: b5b3eb5081e63684cbeaf2cb804c46f1
+    m_Address: Panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 4e321249134f30d4cb67c7f1597f9a53
+    m_Address: Title 0
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 4404175501e61d94aba3e7cfe12c17ac
+    m_Address: Title 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 1026010d4ca3c8d47a5dc99b8e7ccf4c
+    m_Address: Title 2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: c8bc24f0659b77d4588a6bd49a1a1c91
+    m_Address: Warrior_Stand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 3dc569b7e53455e4b86db7b2c398523c
+    m_Address: Captain_Stand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: eb4ec1004086f0c49b9771b10efd837a
+    m_Address: Knight_Stand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 3bf6eccdee31789468d371798e555a3b
+    m_Address: Mage_Stand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: d5ca2f3a425094d4988f53a88ba42c4f
+    m_Address: Saint_Stand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  - m_GUID: 6cbcca40f27d72b4ba170afe1ae7b4ae
+    m_Address: Thief_Stand
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sprite
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 952ded5eb38b64841b41335929b34450, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b758902d21b4c3d4e864f1af8de6f938, type: 2}
+    - {fileID: 11400000, guid: 2929bd5380f178f4aa756ed2abbbe674, type: 2}

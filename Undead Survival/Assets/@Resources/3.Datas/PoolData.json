@@ -1,0 +1,12 @@
+{
+  "datas": [
+    {
+      "type": "Unit",
+      "names": [ "Enemy", "Tree", "EnemyBig" ]
+    },
+    {
+      "type": "Object",
+      "names": [ "Bullet", "Shovel", "Fork","Sickle","Exp" ]
+    }
+  ]
+}

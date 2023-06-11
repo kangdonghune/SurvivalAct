@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Datas
+  m_EditorClassIdentifier: 
+  m_GroupName: Datas
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5f2b12e3e5f70c0498983db73cabef16
+  m_SerializeEntries:
+  - m_GUID: 0b49a83a3b8569649b12420a3e5e7275
+    m_Address: ItemData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Data
+  - m_GUID: 9dc22a5416672e24e91665bc6578bf27
+    m_Address: PoolData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Data
+  - m_GUID: 04073b9ad0ed6b9469c3f8c0b6b82323
+    m_Address: AudioData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Data
+  - m_GUID: 65358d453f6e26c4d906354692eb499d
+    m_Address: CharicterData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Data
+  - m_GUID: 9dc08e2bbbf45d94581a18056deebbae
+    m_Address: InGameData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Data
+  - m_GUID: 3e38f8c8933d5854d8848d8c1be13340
+    m_Address: SpawnData
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Data
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 952ded5eb38b64841b41335929b34450, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c63d4bbe5ea1c4b4594945475f0aa817, type: 2}
+    - {fileID: 11400000, guid: a346144207c9f6b40ba080de8621cf8f, type: 2}

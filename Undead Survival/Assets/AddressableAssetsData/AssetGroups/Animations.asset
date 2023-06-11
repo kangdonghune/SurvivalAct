@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Animations
+  m_EditorClassIdentifier: 
+  m_GroupName: Animations
+  m_Data:
+    m_SerializedData: []
+  m_GUID: eba2eef894c302141985e20aa600e1ef
+  m_SerializeEntries:
+  - m_GUID: f2855d618fc8d9c499189d3f39b9cbbc
+    m_Address: EnemyJombie
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation
+  - m_GUID: 050556270436d4f4288557291a1a99c0
+    m_Address: EnemyLeatherJombie
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation
+  - m_GUID: 12cfc8b2360c2fc4499d4f6f6607671a
+    m_Address: EnemySkull
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation
+  - m_GUID: 8d1d920724ffb8a409ce0e458dc4b7a9
+    m_Address: EnemyDemon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation
+  - m_GUID: 25f7a818644b68042bb0c0c2a28d1550
+    m_Address: EnemyTree
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation
+  - m_GUID: a0805d4826c254244bd19787755fd010
+    m_Address: PlayerWarrior
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation
+  - m_GUID: 4384f9c2aaefdf74aa7a860552d802df
+    m_Address: PlayerCaptain
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation
+  - m_GUID: b6d694723681e864e930f8859e3ac040
+    m_Address: PlayerMage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation
+  - m_GUID: d46163f951fc1db4890edb67b9bf242a
+    m_Address: PlayerSaint
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation
+  - m_GUID: f04ad7d68a8669149a73a524e8a351c8
+    m_Address: PlayerThief
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation
+  - m_GUID: 0a981800b670771459667255f8fd0992
+    m_Address: PlayerKnight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Animation
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 952ded5eb38b64841b41335929b34450, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: b10a6f6154c72034095c79ebfb0350e5, type: 2}
+    - {fileID: 11400000, guid: 7a7cc0e4c1fbbbf4590454a12fa028c1, type: 2}

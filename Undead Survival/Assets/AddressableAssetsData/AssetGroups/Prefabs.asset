@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Prefabs
+  m_EditorClassIdentifier: 
+  m_GroupName: Prefabs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: b32bb8a14325b9748b5beea746c6ebab
+  m_SerializeEntries:
+  - m_GUID: 2beac943019f31e47b32cd8ea8d7ea34
+    m_Address: Enemy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - prefab
+    - Prefab
+  - m_GUID: 335270ed5949f394db43cdf7bf661039
+    m_Address: Player
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefab
+  - m_GUID: e82516189c8e75346ba7e219cd447458
+    m_Address: Bullet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - prefab
+    - Prefab
+  - m_GUID: 2eb6aa70c27913142afa072fe4f3c664
+    m_Address: Shovel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - prefab
+    - Prefab
+  - m_GUID: ff1a16a519c2b24439c2409ae1dec97c
+    m_Address: Exp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefab
+  - m_GUID: 9b2fe61a169d4974cae1900e63b11c70
+    m_Address: Tree
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefab
+  - m_GUID: 962d5bb23def1b6449966857027e01cd
+    m_Address: EnemyBig
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefab
+  - m_GUID: 18728b8ca1de6ac40929934753e68e3c
+    m_Address: Sickle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefab
+  - m_GUID: 33d7b59e9ccc2c544afa19c65bf25454
+    m_Address: Fork
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Prefab
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 952ded5eb38b64841b41335929b34450, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 74035e24e0dadb14cb99952d98ee567c, type: 2}
+    - {fileID: 11400000, guid: ddd8b086c618e404183feeca16f10106, type: 2}
