@@ -1,0 +1,12 @@
+{
+  "datas": [
+    {
+      "type": "BGM",
+      "sounds": ["BGM_Timo" ,"BGM_Mutant Club.mp3"]
+    },
+    {
+      "type": "SFX",
+      "sounds": [ "Dead.wav", "Hit0.wav", "Hit1.wav", "LevelUp.wav", "Lose.wav", "Melee0.wav", "Melee1.wav", "Range.wav", "Select.wav", "Win.wav", "PickUp.wav" ]
+    }
+  ]
+}

@@ -33,15 +33,15 @@ public class Reposition : MonoBehaviour
             case "Ground":
                 if (Mathf.Abs(diffX - diffY) < 0.01f)
                 {
-                    transform.Translate(dirX * 40, dirY * 40, 0);
+                    transform.Translate(dirX * 60, dirY * 60, 0);
                 }
                 else if (diffX > diffY)
                 {
-                    transform.Translate(Vector3.right * dirX * 40);
+                    transform.Translate(Vector3.right * dirX * 60);
                 }
                 else if (diffX < diffY)
                 {
-                    transform.Translate(Vector3.up * dirY * 40);
+                    transform.Translate(Vector3.up * dirY * 60);
                 }
                 break;
             case "Enemy":
