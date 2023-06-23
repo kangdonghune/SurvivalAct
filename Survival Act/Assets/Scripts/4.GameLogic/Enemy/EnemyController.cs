@@ -9,23 +9,30 @@ public class EnemyController : MonoBehaviour
     public float MaxHp;
     public static Rigidbody2D Target = null;
     public Animator Anim;
+    public bool IsLive = false;
 
     protected Rigidbody2D _rigid;
     protected Collider2D _coll;
     protected SpriteRenderer _sprite;
     protected WaitForFixedUpdate _wait;
-    protected bool isLive = false;
 
 
     protected  void OnEnable()
     {
-        isLive = true;
+        IsLive = true;
         Hp = MaxHp;
         _coll.enabled = true;
         _rigid.simulated = true;
         _sprite.sortingOrder++;
         Anim.SetBool("Dead", false);
+        Managers.Enemy.EnemySet.Add(this);
     }
+
+    protected void OnDisable()
+    {
+        Managers.Enemy.EnemySet.Remove(this);
+    }
+
 
     public virtual void Init(SpawnData data, int animNum)
     {
@@ -47,7 +54,11 @@ public class EnemyController : MonoBehaviour
         _wait = new WaitForFixedUpdate();
     }
 
-    
+    public virtual void FixedUpdateByManager()
+    {
+        
+    }
+
 
     protected IEnumerator CoKnockBack()
     {
@@ -59,7 +70,7 @@ public class EnemyController : MonoBehaviour
 
     public void ReadyDead()
     {
-        isLive = false;
+        IsLive = false;
         _coll.enabled = false;
         _rigid.simulated = false;
         _sprite.sortingOrder--;

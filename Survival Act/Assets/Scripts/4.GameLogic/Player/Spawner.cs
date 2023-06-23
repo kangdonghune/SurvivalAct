@@ -28,7 +28,6 @@ public class Spawner : MonoBehaviour
         {
             _waits[idx] = new WaitForSeconds(Managers.Data.InGameDic["SpawnTime"].value[idx]);
         }
-
     }
 
     //울타리 방식은 찍을 좌표가 너무 많아 에디터로 노가다 하기보단 코드 상으로 만든다. 360도 기준 스폰하고자 하는 몬스터 수로 각도를 구해 위치 
@@ -83,10 +82,18 @@ public class Spawner : MonoBehaviour
         Managers.Instance.StartCoroutine(CoDead(enemy, _disableWaitBig)); // 해당 패턴의 몹은 무적이고 촬영 범위 밖으로 나간 후에는 계속 생존할 필요가 없다.
     }
 
+    private void TestSpawn(int count)
+    {
+        for(int cnt = 0; cnt < count; cnt++)
+        {
+            SpawnChaser(0);
+        }
+    }
+
     //게임 레벨 별 스폰되는 몬스터 종류
     IEnumerator CoSpawnByLevel(int GameLevel)
     {
-        while(true)
+        while (true)
         {
             switch (GameLevel)
             {
@@ -107,6 +114,9 @@ public class Spawner : MonoBehaviour
             yield return _waits[GameLevel];
         }
 
+        ////TODO-테스트 이후 제거할 것
+        //TestSpawn(1500); //테스트 개체 1000마리
+        yield break;
     }
 
     IEnumerator CoDead(EnemyController enemy, WaitForSeconds wait)

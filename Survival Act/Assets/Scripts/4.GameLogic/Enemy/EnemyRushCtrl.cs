@@ -15,16 +15,13 @@ public class EnemyRushCtrl : EnemyController
         _sprite.flipX = Managers.Game.Player.transform.position.x <= transform.position.x;
     }
 
-    private void FixedUpdate()
+    public override void FixedUpdateByManager()
     {
-        if (Managers.Game.IsLive == false)
-            return;
+        //if (Managers.Game.IsLive == false)
+        //    return;
 
-        if (Managers.Game.Player == null || Managers.Game.Hp <= 0)
-            return;
-
-        if (isLive == false)
-            return;
+        //if (Managers.Game.Player == null || Managers.Game.Hp <= 0)
+        //    return;
         _rigid.MovePosition(_rigid.position + _rushDir * Speed * Time.fixedDeltaTime);
         _rigid.velocity = Vector2.zero;
     }

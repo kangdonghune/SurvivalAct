@@ -25,7 +25,10 @@ public class Managers : MonoBehaviour
 
     private GameManager _game = new GameManager();
     public static GameManager Game { get { return Instance?._game; } }
-    
+
+    private EnemyManager _enemy = new EnemyManager();
+    public static EnemyManager Enemy { get { return Instance?._enemy; } }
+
     private BaseUI _curUI = null;
     public static BaseUI UI { get { if (Instance == null) return null; else return (Instance._curUI == null) ? Instance._curUI = GameObject.FindAnyObjectByType<BaseUI>() : Instance._curUI; } } //매 씬 이동마다 새로 등록
 
@@ -54,6 +57,11 @@ public class Managers : MonoBehaviour
     private void Update()
     {
         Game.Update();
+    }
+
+    private void FixedUpdate()
+    {
+        Enemy.FixedUpdate();
     }
 
 

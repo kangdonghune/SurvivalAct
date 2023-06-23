@@ -12,7 +12,8 @@ public class ReadyScene : BaseScene
     private bool _load = true;
     protected override void Init()
     {
-        Application.targetFrameRate = 60; //이거 지장 안해주면 30프레임까지 떨어진다.
+        //TODO- Test 후 수정할 것
+        //Application.targetFrameRate = 60; //이거 지장 안해주면 30프레임까지 떨어진다.
         Type = SceneType.Ready; //내 씬 정의
         //데이터 로딩 시작
         //비동기 함수라 int ++ 이 문제가 생기지 않을까 생각 중. 혹시라도 로드 관련 불규칙한 오류가 생기면 확인할 것.

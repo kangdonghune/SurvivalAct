@@ -65,19 +65,20 @@ public class PlayerController : MonoBehaviour
             _sprite.flipX = InputVec.x < 0;
     }
 
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (!Managers.Game.IsLive || Managers.Game.Hp <= 0)
-            return;
+    //TODO- Test 후 수정해줄 것
+    //private void OnCollisionStay2D(Collision2D collision)
+    //{
+    //    if (!Managers.Game.IsLive || Managers.Game.Hp <= 0)
+    //        return;
 
-        Managers.Game.Hp -= Time.deltaTime * 10;
+    //    Managers.Game.Hp -= Time.deltaTime * 10;
 
-        if(Managers.Game.Hp <= 0)
-        {
-            for (int idx = 0; idx < transform.childCount; idx++)
-                transform.GetChild(idx).gameObject.SetActive(false); //플레이어 산하 오브젝트 비활성화
-            _anim.SetTrigger("Dead");
-            Managers.Game.GameOver();
-        }
-    }
+    //    if(Managers.Game.Hp <= 0)
+    //    {
+    //        for (int idx = 0; idx < transform.childCount; idx++)
+    //            transform.GetChild(idx).gameObject.SetActive(false); //플레이어 산하 오브젝트 비활성화
+    //        _anim.SetTrigger("Dead");
+    //        Managers.Game.GameOver();
+    //    }
+    //}
 }
