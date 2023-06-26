@@ -95,9 +95,9 @@ GameObject:
   - component: {fileID: 1514961526992491368}
   - component: {fileID: 1514961526992491369}
   - component: {fileID: 1514961526992491370}
-  - component: {fileID: 1514961526992491371}
   - component: {fileID: 1514961526992491372}
   - component: {fileID: 619320742410900716}
+  - component: {fileID: -777941568845922296}
   m_Layer: 6
   m_Name: Enemy
   m_TagString: Enemy
@@ -194,27 +194,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!50 &1514961526992491371
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1514961526992491373}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!70 &1514961526992491372
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -247,3 +226,25 @@ MonoBehaviour:
   Hp: 0
   MaxHp: 0
   Anim: {fileID: 0}
+  IsLive: 0
+--- !u!50 &-777941568845922296
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514961526992491373}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

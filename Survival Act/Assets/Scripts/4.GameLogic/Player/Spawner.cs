@@ -93,29 +93,29 @@ public class Spawner : MonoBehaviour
     //게임 레벨 별 스폰되는 몬스터 종류
     IEnumerator CoSpawnByLevel(int GameLevel)
     {
-        while (true)
-        {
-            switch (GameLevel)
-            {
-                case 0:
-                case 1:
-                case 2:
-                    SpawnChaser(GameLevel);
-                    break;
-                case 3:
-                    SpawnFenceEnemy();
-                    break;
-                case 4:
-                    SpawnRush();
-                    break;
-                default:
-                    break;
-            }
-            yield return _waits[GameLevel];
-        }
+        //while (true)
+        //{
+        //    switch (GameLevel)
+        //    {
+        //        case 0:
+        //        case 1:
+        //        case 2:
+        //            SpawnChaser(GameLevel);
+        //            break;
+        //        case 3:
+        //            SpawnFenceEnemy();
+        //            break;
+        //        case 4:
+        //            SpawnRush();
+        //            break;
+        //        default:
+        //            break;
+        //    }
+        //    yield return _waits[GameLevel];
+        //}
 
         ////TODO-테스트 이후 제거할 것
-        //TestSpawn(1500); //테스트 개체 1000마리
+        TestSpawn(1500); //테스트 개체 1000마리
         yield break;
     }
 

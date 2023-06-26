@@ -76,7 +76,7 @@ public class GameManager
         Hp = MaxHp * Charicter.HP;
         isGameLevelMax = false;
         //TODO- Test 종료 후 무기 재장착 시켜줄 것
-        Managers.UI.Get<LevelUp>().Select(id % 4); //4 는 무기 개수
+        //Managers.UI.Get<LevelUp>().Select(id % 4); //4 는 무기 개수
         //조이스틱 ui 및 유니티 시간 설정 초기화
         Resume();
         //몬스터 스폰 및 기본 음향 설정

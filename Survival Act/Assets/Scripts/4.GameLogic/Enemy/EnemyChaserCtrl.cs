@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class EnemyChaserCtrl : EnemyController
 {
-    public override void FixedUpdateByManager()
+    public override void Move(Vector3 position)
     {
-        //if (Managers.Game.IsLive == false)
-        //    return;
-
-        //if (Managers.Game.Player == null || Managers.Game.Hp <= 0)
-        //    return;
-
-
         if (Anim.GetCurrentAnimatorStateInfo(0).IsName("Hit"))
             return;
+        _rigid.MovePosition(position);
+        _rigid.velocity = Vector2.zero;
+    }
 
-        Vector2 dir = (Target.position - _rigid.position).normalized;
+    public override void FixedUpdateByManager()
+    {
+        if (Anim.GetCurrentAnimatorStateInfo(0).IsName("Hit"))
+            return;
+        Vector2 dir = (Target.position - transform.position).normalized;
         _rigid.MovePosition(_rigid.position + dir * Speed * Time.fixedDeltaTime);
         _rigid.velocity = Vector2.zero;
         _sprite.flipX = Target.position.x <= _rigid.position.x;

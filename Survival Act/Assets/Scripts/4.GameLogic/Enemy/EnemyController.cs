@@ -7,7 +7,7 @@ public class EnemyController : MonoBehaviour
     public float Speed;
     public float Hp;
     public float MaxHp;
-    public static Rigidbody2D Target = null;
+    public static Transform Target = null;
     public Animator Anim;
     public bool IsLive = false;
 
@@ -25,12 +25,12 @@ public class EnemyController : MonoBehaviour
         _rigid.simulated = true;
         _sprite.sortingOrder++;
         Anim.SetBool("Dead", false);
-        Managers.Enemy.EnemySet.Add(this);
+        Managers.Enemy.EnemyLst.Add(this);
     }
 
     protected void OnDisable()
     {
-        Managers.Enemy.EnemySet.Remove(this);
+        Managers.Enemy.EnemyLst.Remove(this);
     }
 
 
@@ -39,7 +39,7 @@ public class EnemyController : MonoBehaviour
         //만약에라도 보관하고 있는 애니 컨트롤러보다 길이가 크다면 아웃 오브 인덱스 방지
         Anim.runtimeAnimatorController = Managers.Game.EnemyAniCtrl[animNum % Managers.Game.EnemyAniCtrl.Length];
         if(Target == null)
-            Target = Managers.Game.Player.GetComponent<Rigidbody2D>();
+            Target = Managers.Game.Player.GetComponent<Transform>();
         Speed = data.speed;
         MaxHp = data.hp;
         Hp = MaxHp;
@@ -57,6 +57,11 @@ public class EnemyController : MonoBehaviour
     public virtual void FixedUpdateByManager()
     {
         
+    }
+
+    public virtual void Move(Vector3 position)
+    {
+
     }
 
 

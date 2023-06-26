@@ -25,4 +25,10 @@ public class EnemyRushCtrl : EnemyController
         _rigid.MovePosition(_rigid.position + _rushDir * Speed * Time.fixedDeltaTime);
         _rigid.velocity = Vector2.zero;
     }
+
+    public override void Move(Vector3 position)
+    {
+        _rigid.MovePosition(position);
+        _rigid.velocity = Vector2.zero;
+    }
 }
